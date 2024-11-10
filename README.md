@@ -39,18 +39,8 @@ For generating test reports, we use the Allure reporter. Install it using:
 
 ```bash
 npm install @wdio/allure-reporter --save-dev
-```
-Include reporters to wdio.conf.js
-reporters: [['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-    }]],
-Instll commandline using:
-```bash
 npm i allure-commandline
 ```
-
 
 ### 5. Run Tests
 
