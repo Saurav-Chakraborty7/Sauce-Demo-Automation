@@ -39,10 +39,18 @@ For generating test reports, we use the Allure reporter. Install it using:
 
 ```bash
 npm install @wdio/allure-reporter --save-dev
-npm install allure-commandline --save-dev
+```
+Include reporters to wdio.conf.js
+reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
+Instll commandline using:
+```bash
+npm i allure-commandline
 ```
 
-**Note:** If you face issues with running Allure commands, you may need to configure your system's execution policy for running scripts (e.g., on Windows, you can set it with `Set-ExecutionPolicy RemoteSigned` in PowerShell).
 
 ### 5. Run Tests
 
