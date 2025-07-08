@@ -16,8 +16,15 @@ Clone this repository to your local machine:
 git clone https://github.com/Saurav-Chakraborty7/Sauce-Demo-Automation.git
 cd Sauce-Demo-Automation
 ```
+### 2. Initialize the Project
 
-### 2. Install Node Modules
+To get started, initialize the project by running:
+
+```bash
+npm init -y
+```
+
+### 3. Install Node Modules
 
 To get started, install the required node modules by running:
 
@@ -25,7 +32,7 @@ To get started, install the required node modules by running:
 npm install
 ```
 
-### 3. Install WebdriverIO
+### 4. Install WebdriverIO
 
 If you haven't already, install WebdriverIO via npm:
 
@@ -33,7 +40,7 @@ If you haven't already, install WebdriverIO via npm:
 npm install @wdio/cli --save-dev
 ```
 
-### 4. Install Allure Reporter
+### 5. Install Allure Reporter
 
 For generating test reports, we use the Allure reporter. Install it using:
 
@@ -42,7 +49,7 @@ npm install @wdio/allure-reporter --save-dev
 npm i allure-commandline
 ```
 
-### 5. Run Tests
+### 6. Run Tests
 
 - To run tests in parallel (spec-wise):
 
@@ -56,7 +63,7 @@ npm run test
 npm run suits
 ```
 
-### 6. Generate Allure Report
+### 7. Generate Allure Report
 
 Once the tests have completed, you can generate and view the Allure report:
 
