@@ -38,6 +38,7 @@ If you haven't already, install WebdriverIO via npm:
 
 ```bash
 npm install @wdio/cli --save-dev
+npx wdio config
 ```
 
 ### 5. Install Allure Reporter
